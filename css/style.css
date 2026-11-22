@@ -1,0 +1,117 @@
+/* Shared stylesheet for all three pages */
+
+/* 1. Body: font family and font size */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  color: #243247;
+  background-color: #f4f7f5;
+}
+
+/* 2. Header: background color */
+header {
+  background-color: #e5f0e8;
+  padding: 24px 5%;
+  text-align: center;
+}
+
+/* 3. Navigation: background color */
+nav {
+  background-color: #245b45;
+  padding: 12px;
+  margin: -24px -5% 22px;
+}
+
+/* Navigation list layout */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 4. Main: background color and font size */
+main {
+  background-color: #ffffff;
+  font-size: 18px;
+  max-width: 1000px;
+  margin: 24px auto;
+  padding: 28px;
+  box-sizing: border-box;
+}
+
+/* 5. Footer: background color */
+footer {
+  background-color: #245b45;
+  color: #ffffff;
+  padding: 20px 5%;
+  text-align: center;
+}
+
+/* 6. List items: display and width */
+li {
+  display: inline-block;
+  width: 180px;
+  padding: 8px 10px;
+  box-sizing: border-box;
+}
+
+/* 7. H1: alignment, font family, and color */
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #173f30;
+}
+
+/* 8. Paragraph: line height */
+p {
+  line-height: 1.7;
+}
+
+/* Links */
+a {
+  color: #174f39;
+  font-weight: 600;
+}
+
+nav a,
+footer a {
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Images remain responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main img {
+  margin: 8px;
+  vertical-align: middle;
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  header {
+    padding: 18px 4%;
+  }
+
+  nav {
+    margin: -18px -4% 18px;
+  }
+
+  li {
+    width: auto;
+    padding: 8px;
+  }
+
+  main {
+    margin: 12px;
+    padding: 18px;
+  }
+}
